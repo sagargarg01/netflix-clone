@@ -1,0 +1,11 @@
+i am using service provided by TMDB - the movie DB; gonna make a call and then use the data ok
+
+API Key (v3 auth)
+451079eb0937b38315a365e0ecf8281c
+
+Example API Request
+https://api.themoviedb.org/3/movie/550?api_key=451079eb0937b38315a365e0ecf8281c
+
+
+setting up firebase -  hosting
+npm i axios - to send request from API
