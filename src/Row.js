@@ -29,7 +29,7 @@ function Row({ title, fetchURL, isLarger }) {
                <img
                   key={movie.id}
                   className={`row__poster ${isLarger && 'row__posterLarge'}`}
-                  src={`${base_url}${isLarger ? movie.poster_path : movie.backdrop_path}`}
+                  src={`${base_url}${isLarger ? movie.poster_path : movie?.backdrop_path}`}
                   alt={movie.name}
                />
             ))}
