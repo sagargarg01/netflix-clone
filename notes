@@ -9,3 +9,13 @@ https://api.themoviedb.org/3/movie/550?api_key=451079eb0937b38315a365e0ecf8281c
 
 setting up firebase -  hosting
 npm i axios - to send request from API
+
+to get a youtube pop up --- react-youtube , movie trailer
+
+hosting --- firebase login
+      2. firebase init
+      3. choose hosting
+      4. choose existing project
+      5. write build (imp)
+      6. npm run build - to create a production level build
+      7. firebase deploy

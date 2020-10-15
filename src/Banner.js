@@ -19,7 +19,6 @@ function Banner(props) {
       fetchData();
    }, [])
 
-   console.log(movie);
    function truncate(str, n) {
       return str?.length > n ? str.substr(0, n - 1) + "..." : str;
    }
@@ -42,7 +41,7 @@ function Banner(props) {
                <button className="banner__button"> My List </button>
             </div>
 
-            <h1 className="banner__overview">{movie.overview}
+            <h1 className="banner__overview">
                {truncate(movie?.overview, 150)}
             </h1>
          </div>
